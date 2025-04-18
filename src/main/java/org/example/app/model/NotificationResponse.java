@@ -1,4 +1,4 @@
-package org.example.notificationsvc.model;
+package org.example.app.model;
 
 import lombok.Builder;
 import lombok.Data;

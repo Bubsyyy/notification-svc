@@ -1,4 +1,4 @@
-package org.example.notificationsvc.web;
+package org.example.app.web;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;

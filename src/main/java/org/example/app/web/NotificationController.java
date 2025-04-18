@@ -1,8 +1,7 @@
-package org.example.notificationsvc.web;
+package org.example.app.web;
 
-import org.example.notificationsvc.model.Notification;
-import org.example.notificationsvc.model.NotificationResponse;
-import org.example.notificationsvc.services.NotificationService;
+import org.example.app.model.NotificationResponse;
+import org.example.app.services.NotificationService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;

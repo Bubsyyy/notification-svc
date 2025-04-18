@@ -1,11 +1,11 @@
-package org.example.notificationsvc.services;
+package org.example.app.services;
 
 import lombok.extern.slf4j.Slf4j;
-import org.example.notificationsvc.model.Notification;
-import org.example.notificationsvc.model.NotificationResponse;
-import org.example.notificationsvc.model.NotificationStatus;
-import org.example.notificationsvc.repository.NotificationRepository;
-import org.example.notificationsvc.web.NotificationRequest;
+import org.example.app.model.Notification;
+import org.example.app.model.NotificationResponse;
+import org.example.app.model.NotificationStatus;
+import org.example.app.repository.NotificationRepository;
+import org.example.app.web.NotificationRequest;
 import org.springframework.mail.MailSender;
 import org.springframework.mail.SimpleMailMessage;
 import org.springframework.stereotype.Service;
